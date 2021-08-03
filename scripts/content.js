@@ -37,7 +37,7 @@ function professional() {
         ],
         sixthColumn: [
             { text: "PhpMyAdmin", valuenow: 15},
-            { text: "NoSQL (MongoDB)", valuenow: 85},
+            { text: "NoSQL (MongoDB)", valuenow: 15},
             { text: "React", valuenow: 10},
         ],
         seventhColumn: [
