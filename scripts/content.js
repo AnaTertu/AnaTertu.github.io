@@ -45,8 +45,9 @@ function professional() {
             { text: "Windows", valuenow: 50},
         ],
         eightColumn: [
-            { text: "English", valuenow: 20},
-            { text: "Español", valuenow: 20},
+            { text: "Inglês - English", valuenow: 20},
+            { text: "Espanhol - Español", valuenow: 20},
+            { text: "Japonês - 日本", valuenow: 10},
         ]
     }
 
