@@ -136,6 +136,13 @@ footer a:not(.nav-link) {
   cursor: pointer;
 }
 
+@media screen and (max-width:550px) {
+  .certificado {
+    display: grid;
+    justify-items: center;
+  }
+}
+
 @media (min-width: 48em) {
   .site-title {
     float: left;
@@ -147,7 +154,6 @@ footer a:not(.nav-link) {
     margin-bottom: -80px;
     margin-left: 0;
   }
-}
 
 @media print {
   body {
