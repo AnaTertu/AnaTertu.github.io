@@ -119,6 +119,16 @@ html {
 }
 */
 
+.certificado {
+  display: flex;
+  padding: 50px;
+  margin: 16px;
+}
+
+.certificado > .col-lg-4 {
+  width: 53.33333%;
+}
+
 footer a:not(.nav-link) {
   color: inherit;
   border-bottom: 1px dashed;
