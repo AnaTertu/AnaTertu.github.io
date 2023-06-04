@@ -11,19 +11,19 @@ function professional() {
 
     const args = { 
         firstColumn: [
-            { text: "GIT", valuenow: 30},
-            { text: "Algorithm", valuenow: 25},
-            { text: "Object Orientation", valuenow: 25},
+            { text: "GIT", valuenow: 80},
+            { text: "Algorithm", valuenow: 75},
+            { text: "Object Orientation", valuenow: 75},
         ],
         secondColumn: [
-            { text: "Logic programming", valuenow: 25},
-            { text: "Word", valuenow: 50},
-            { text: "Excell", valuenow: 35},
+            { text: "Logic programming", valuenow: 75},
+            { text: "Word", valuenow: 60},
+            { text: "Excell", valuenow: 55},
         ],
         thirdColumn: [
-            { text: "HTML", valuenow: 35},
-            { text: "CSS", valuenow: 25},
-            { text: "JavaScript", valuenow: 20},
+            { text: "HTML", valuenow: 55},
+            { text: "CSS", valuenow: 45},
+            { text: "JavaScript", valuenow: 40},
         ],
         fourthColumn: [
             { text: "Bootstrap", valuenow: 20},
@@ -42,7 +42,7 @@ function professional() {
         ],
         seventhColumn: [
             { text: "Linux", valuenow: 30},
-            { text: "Windows", valuenow: 50},
+            { text: "Windows", valuenow: 70},
         ],
         eightColumn: [
             { text: "Inglês - English", valuenow: 20},
