@@ -66,8 +66,6 @@ function progressBody(args) {
         progressColumn(args.secondColumn, "bg-success", args.firstColumn.length)
     );
 
-
-
     
     document.getElementById('testeId').appendChild(
         progressColumn(args.thirdColumn, "bg-primary", 0)
@@ -78,8 +76,6 @@ function progressBody(args) {
     );
 
 
-
-
     document.getElementById('frontId').appendChild(
         progressColumn(args.fifthColumn, "bg-primary", 0)
     );
@@ -87,8 +83,7 @@ function progressBody(args) {
     document.getElementById('frontId').appendChild(
         progressColumn(args.sixthColumn, "bg-success", args.fifthColumn.length)
     );
-
-
+    
 
     document.getElementById('sistLangId').appendChild(
         progressColumn(args.seventhColumn, "bg-primary", 0)
