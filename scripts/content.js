@@ -21,14 +21,14 @@ function professional() {
             { text: "Excell", valuenow: 55},
         ],
         thirdColumn: [
-            { text: "Teste de Software", valuenow: 55},
+            { text: "Teste de Software", valuenow: 70},
             { text: "Automação Cypress", valuenow: 45},
-            { text: "Consumo de API`s", valuenow: 40},
+            { text: "Consumo de API`s", valuenow: 50},
         ],
         fourthColumn: [
             { text: "Jmeter", valuenow: 40},
-            { text: "Cypress", valuenow: 50},
-            { text: "Postman", valuenow: 40},
+            { text: "Cypress", valuenow: 40},
+            { text: "Postman", valuenow: 50},
         ],
         fifthColumn: [
             { text: "HTML", valuenow: 55},
