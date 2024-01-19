@@ -26,9 +26,9 @@ function professional() {
             { text: "Consumo de API`s", valuenow: 40},
         ],
         fourthColumn: [
-            { text: "Jmeter", valuenow: 40},
-            { text: "Cypress", valuenow: 50},
-            { text: "Postman", valuenow: 40},
+            { text: "Bo", valuenow: 20},
+            { text: "Re", valuenow: 20},
+            { text: "Rea", valuenow: 15},
         ],
         fifthColumn: [
             { text: "HTML", valuenow: 55},
@@ -41,12 +41,25 @@ function professional() {
             { text: "React Native", valuenow: 15},
         ],
         seventhColumn: [
+            { text: "Php", valuenow: 10},
+            { text: "NodeJs", valuenow: 10},
+            { text: "MySQL", valuenow: 15},
+        ],
+        eighthColumn: [
+            { text: "PhpMyAdmin", valuenow: 15},
+            { text: "NoSQL (MongoDB)", valuenow: 15},
+            { text: "React", valuenow: 10},
+        ],
+        ninthColumn: [
+            { text: "Jmeter", valuenow: 40},
+            { text: "Cypress", valuenow: 50},
+            { text: "Postman", valuenow: 40},
             { text: "Jira", valuenow: 60},
             { text: "Wink", valuenow: 70},
             { text: "Linux", valuenow: 40},
             { text: "Windows", valuenow: 70},
         ],
-        eighthColumn: [
+        tenthColumn: [
             { text: "Inglês - English", valuenow: 20},
             { text: "Espanhol - Español", valuenow: 20},
             { text: "Japonês - 日本", valuenow: 10},
@@ -90,12 +103,24 @@ function progressBody(args) {
 
 
 
-    document.getElementById('sistLangId').appendChild(
+    
+    document.getElementById('backId').appendChild(
         progressColumn(args.seventhColumn, "bg-primary", 0)
     );
 
+    document.getElementById('backId').appendChild(
+        progressColumn(args.eighthColumn, "bg-success", args.seventhColumn.length)
+    );
+
+
+
+
     document.getElementById('sistLangId').appendChild(
-        progressColumn(args.eighthColumn    , "bg-success", args.seventhColumn.length)
+        progressColumn(args.ninthColumn, "bg-primary", 0)
+    );
+
+    document.getElementById('sistLangId').appendChild(
+        progressColumn(args.tenthColumn, "bg-success", args.ninthColumn.length)
     );
 
 
