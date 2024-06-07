@@ -1,6 +1,5 @@
 function load() {
     professional()
-    portifolio()
     console.log("finished")
 }
 
