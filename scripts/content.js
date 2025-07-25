@@ -7,39 +7,40 @@ function professional() {
 
     const args = { 
         firstColumn: [
-            { text: "GIT", valuenow: 80},
-            { text: "Algorithm", valuenow: 75},
-            { text: "Object Orientation", valuenow: 75},
+            { text: "GIT", valuenow: 40},
+            { text: "Algorithm", valuenow: 35},
+            { text: "Object Orientation", valuenow: 35},
         ],
         secondColumn: [
-            { text: "Logic programming", valuenow: 75},
-            { text: "Word", valuenow: 60},
-            { text: "Excell", valuenow: 55},
+            { text: "Logic programming", valuenow: 45},
+            { text: "Word", valuenow: 45},
+            { text: "Excell", valuenow: 40},
         ],
         thirdColumn: [
-            { text: "Teste de Software", valuenow: 70},
-            { text: "Automação Cypress", valuenow: 45},
-            { text: "Consumo de API`s", valuenow: 50},
+            { text: "Teste de Software", valuenow: 35},
+            { text: "Automação Cypress", valuenow: 35},
+            { text: "Consumo de API`s", valuenow: 25},
         ],
         fourthColumn: [
-            { text: "Jmeter", valuenow: 40},
-            { text: "Cypress", valuenow: 40},
-            { text: "Postman", valuenow: 50},
+            { text: "Jmeter", valuenow: 35},
+            { text: "Cypress", valuenow: 20},
+            { text: "Postman", valuenow: 35},
         ],
         fifthColumn: [
-            { text: "HTML", valuenow: 55},
-            { text: "CSS", valuenow: 45},
+            { text: "Swift", valuenow: 35},
+            { text: "CSS", valuenow: 35},
         ],
         sixthColumn: [
-            { text: "JavaScript", valuenow: 40},
+            { text: "JavaScript", valuenow: 35},
+            { text: "HTML", valuenow: 35},
         ],
         seventhColumn: [
-            { text: "Jira", valuenow: 60},
-            { text: "Wink", valuenow: 80},
+            { text: "Jira", valuenow: 40},
+            { text: "Wink", valuenow: 50},
         ],
         eighthColumn: [    
-            { text: "Linux", valuenow: 40},
-            { text: "Windows", valuenow: 70},
+            { text: "Linux", valuenow: 35},
+            { text: "Windows", valuenow: 40},
         ],
         ninthColumn: [
             { text: "English", valuenow: 20},
