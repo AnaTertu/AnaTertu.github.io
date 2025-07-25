@@ -44,10 +44,11 @@ function professional() {
         ],
         ninthColumn: [
             { text: "English", valuenow: 20},
-            { text: "Español", valuenow: 20}
+            { text: "Español", valuenow: 35},
         ],
         tenthColumn: [
-            { text: "日本", valuenow: 10},
+            { text: "日本語", valuenow: 10},
+            { text: "Italiano", valuenow: 35},
         ]
     }
 
